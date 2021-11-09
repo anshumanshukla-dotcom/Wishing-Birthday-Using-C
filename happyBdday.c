@@ -5,12 +5,13 @@ int main()
 {
     char name[100];
     int run;
-    printf("Enter your name: ");
+    printf("Enter your name: ");     // Asking the user to type in his/her name
     scanf("%[^\n]", &name);
     printf("\n");
-    printf("Enter the number of times you want the pattern to be displayed: ");
+    printf("Enter the number of times you want the pattern to be displayed: ");     // Asking for the no. of times the pattern needs to be displayed
     scanf("%d", &run);
     printf("\n\n");
+    // If the input from the previous step is zero
     if (run == 0)
     {
         printf("You chose \"0\". As a result of which no pattern has been displayed.");
